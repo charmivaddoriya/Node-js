@@ -1,0 +1,20 @@
+<!--Write one JSON string with date property (yyyy-mm-dd) and print date in India standard time.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="time()">Click me</button>
+    <p id="inp"></p>
+    <script>
+        function time(){
+            const obj=JSON.parse(`{"name":"xyz","age":"17","dob":"1997-03-14"}`);
+            a = new Date(obj.dob);
+            document.getElementById("inp").innerHTML=`Birthday of ${obj.name} is ${a}`
+        }
+    </script>
+</body>
+</html>
