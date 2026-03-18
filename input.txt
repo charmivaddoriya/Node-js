@@ -1,0 +1,4 @@
+{"data":{"a":15,"b":20,"c":[40,30]}}
+addition of a and b=35
+subtraction of 2nd element of c and b=10
+multiplication of elements of c=1200
